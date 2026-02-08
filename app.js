@@ -85,13 +85,7 @@ async function createCourse() {
   loadCourses();
 }
 async function loadCourses() {
-  const res = await fetch(`${API}/courses`, {
-    headers: {
-      Authorization: `Bearer ${getToken()}`
-    }
-  });
-
-  const courses = await res.json();
+  
   const list = document.getElementById('courses');
   list.innerHTML = '';
 
