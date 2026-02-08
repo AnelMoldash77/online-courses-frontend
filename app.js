@@ -1,4 +1,4 @@
-const API = 'http://localhost:5000/api';
+const API = 'https://online-courses-backend-dla5.onrender.com';
 
 function saveToken(token) {
   localStorage.setItem('token', token);
