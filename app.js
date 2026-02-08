@@ -17,8 +17,6 @@ async function login() {
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
-  const data = await res.json();
-
   if (!data.token) {
     alert('Login failed');
     return;
