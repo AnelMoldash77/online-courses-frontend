@@ -1,13 +1,5 @@
 const API = 'https://online-courses-backend-dla5.onrender.com/api';
 
-fetch(`${API_URL}/api/auth/login`, {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify(data)
-});
-
 function saveToken(token) {
   localStorage.setItem('token', token);
 }
