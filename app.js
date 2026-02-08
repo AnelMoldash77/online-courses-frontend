@@ -1,4 +1,4 @@
-const API = 'https://online-courses-backend-dla5.onrender.com';
+const API = 'https://online-courses-backend-dla5.onrender.com/api';
 
 fetch(`${API_URL}/api/auth/login`, {
   method: 'POST',
